@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Shot Drone Tours</title>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <!-- Barra de Navegación -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="./logo-droneadventure.png" alt="Logo Drone Adventure">
+            </a>
+            <div class="hamburger" id="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about">Nosotros</a>
+                <div class="nav-dropdown">
+                    <a href="#contact" class="nav-dropdown-toggle">Contáctanos</a>
+                    <div class="nav-dropdown-menu">
+                        <p class="contact-number">+57 3168119655</p>
+                        <div class="dropdown-buttons">
+                            <a href="https://wa.me/573168119655" target="_blank" class="btn-whatsapp">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon"> WhatsApp
+                            </a>
+                            <a href="https://www.instagram.com/droneadventure12?igsh=MTVoenoxbWExaHJm" target="_blank" class="btn-instagram">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="ig-icon"> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#services">Servicios</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Principal (Hero) -->
+        <section class="hero-section">
+            <div class="video-background">
+                <video autoplay muted loop playsinline src="./video1.mp4"></video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content gs-fade-up">
+                <h1>Unificamos Ingeniería y Real State</h1>
+                <p>Precisión en fotogrametría, geología y monitoreo de obras, potenciados con cine aéreo 4K para resultados técnicos y visuales de alto impacto</p>
+                <p class="hero-tags">Topografía y Fotogrametría • Cálculos volumétricos • Geología • Seguimiento de obra • Real State • Drones FPV y estabilizados</p>
+            </div>
+        </section>
+
+        <!-- Sección de Características (Botones) -->
+        <section class="features-section">
+            <div class="features-container gs-fade-up">
+                <img src="./Botones.png" alt="Características" class="features-img">
+                <div class="features-text-grid">
+                    <div class="feature-text">
+                        <p>Confiabilidad en cada proyecto</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>8 años de experiencia</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Precisión milimétrica</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Proyectos inmobiliarios y RealState</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-heading gs-fade-up">
+                    <hr class="heading-line">
+                    <h2>Sobre Nosotros</h2>
+                </div>
+                <div class="about-content gs-fade-up">
+                    <p>Liderados por un Geólogo Especialista en Geotecnia con 8 años de experiencia en drones, unimos rigor científico y tecnología aérea. Proveemos soluciones de alta precisión en topografía, cálculos volumétricos, geología aplicada y monitoreo de obra. Integramos esta solvencia técnica con estética cinematográfica para Real Estate, garantizando seguridad y valor estratégico en cada proyecto.</p>
+                    <p class="about-highlight">Tu éxito es nuestra misión.</p>
+                    <div class="team-toggle-container">
+                        <button class="btn-primary" id="btn-team-toggle">Conoce al Equipo</button>
+                        
+                        <div class="team-expandable" id="team-content">
+                            <div class="team-card-premium">
+                                <div class="team-image-wrapper">
+                                    <img src="IMG_4227.jpeg" alt="" class="team-img">
+                                </div>
+                                <div class="team-info">
+                                    <h3>Geólogo Especialista & Piloto de Dron Industrial y FPV</h3>
+                                    <p>Con 8 años de trayectoria en Sistemas de Información Geográfica (SIG), lidera la integración de tecnología LiDAR para el análisis de macizos rocosos y monitoreo de infraestructura. Su perfil evoluciona la captura técnica hacia la narrativa inmersiva, utilizando drones FPV para generar recorridos dinámicos y atrevidos que capturan la esencia de proyectos de Real Estate, hotelería premium de lujo con una perspectiva cinematográfica única.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Video Secundario -->
+        <section class="showcase-section">
+            <div class="video-background">
+                <video autoplay muted loop playsinline src="./video-2-brochure.mp4"></video>
+                <div class="video-overlay dark"></div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section class="services-section" id="services">
+            <div class="services-container">
+                <div class="services-cards-wrapper">
+                    <!-- Bloque 1: Ingeniería -->
+                    <div class="service-card gs-fade-up">
+                        <div class="card-glass">
+                            <div class="card-header">
+                                <span class="card-tag">Geología, Ingeniería y Topografía</span>
+                                <h3>Rigor Técnico y Geotecnia Aplicada</h3>
+                            </div>
+                            <p class="service-intro">"Transformamos el terreno en datos accionables. Como especialista en geología y geotecnia, entregamos precisión milimétrica para la toma de decisiones críticas en proyectos de infraestructura y minería."</p>
+                            
+                            <ul class="service-list">
+                                <li><strong>Topografía y Fotogrametría:</strong> Levantamientos georreferenciados mediante amarres geodésicos y puntos de control GNSS, garantizando precisión absoluta en nubes de puntos y modelos 3D.</li>
+                                <li><strong>Cálculos Volumétricos:</strong> Control exacto de inventarios y movimientos de tierra para optimización de recursos y presupuestos.</li>
+                                <li><strong>Análisis de Macizos Rocosos:</strong> Caracterización geomecánica y mapeo de discontinuidades mediante sensores LiDAR y reconstrucción digital.</li>
+                                <li><strong>Inspección Técnica:</strong> Auditoría de fachadas y estructuras de difícil acceso con drones industriales de alta gama.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Bloque 2: Real Estate -->
+                    <div class="service-card gs-fade-up" data-delay="0.2">
+                        <div class="card-glass">
+                            <div class="card-header">
+                                <span class="card-tag">Producción audiovisual y Real Estate</span>
+                                <h3>Narrativa Visual e Inmersión Inmobiliaria</h3>
+                            </div>
+                            <p class="service-intro">"Capturamos la esencia de sus espacios. Utilizamos tecnología FPV y cinematografía aérea para crear experiencias visuales que no solo muestran una propiedad, sino que cuentan su historia."</p>
+                            
+                            <ul class="service-list">
+                                <li><strong>Real Estate de Alta Gama:</strong> Perspectivas arquitectónicas y contextualización urbana para activos premium.</li>
+                                <li><strong>Vuelos FPV Inmersivos:</strong> Recorridos dinámicos y audaces por interiores y exteriores para hotelería, glamping y destinos de lujo.</li>
+                                <li><strong>Seguimiento de Obra Audiovisual:</strong> Documentación estética del avance de proyectos para reportes de inversores y marketing.</li>
+                                <li><strong>Producción Cinematográfica:</strong> Contenido en 4K con post-producción profesional y corrección de color avanzada.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-footer gs-fade-up">
+                    <p class="slogan-cierre">"Un solo equipo, todas las perspectivas: Del dato técnico a la pieza cinematográfica."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nuestros Proyectos -->
+        <section class="projects-section">
+            <div class="projects-heading gs-fade-up">
+                <h2>Algunos de nuestros proyectos</h2>
+                <p>Más que imágenes, entregamos soluciones estratégicas. Nuestra trayectoria se traduce en proyectos donde la precisión técnica de la geología y la ingeniería se fusiona con la narrativa visual del Real Estate. Explore cómo transformamos datos en decisiones y espacios en experiencias inmersivas.</p>
+            </div>
+            
+            <div class="marquee-wrapper" id="projects-marquee">
+                <div class="marquee-track" id="projects-track">
+                    <!-- Imágenes -->
+                    <div class="project-item" data-caption='Foto 1 (Matrice en campo): "Despliegue técnico para levantamientos topográficos de alta precisión en entornos complejos."'>
+                        <img src="./1.jpg" alt="Proyecto 1">
+                    </div>
+                    <div class="project-item" data-caption='Foto 2 (Modelo 3D Macizo): "Análisis de macizos rocosos mediante fotogrametría para evaluación de estabilidad y geotecnia."'>
+                        <img src="./2.JPG" alt="Proyecto 2">
+                    </div>
+                    <div class="project-item" data-caption='Foto 3 (Detalle de roca anotado): "Caracterización geotécnica y mapeo de discontinuidades con resolución milimétrica."'>
+                        <img src="./3.JPG" alt="Proyecto 3">
+                    </div>
+                    <div class="project-item" data-caption='Foto 4 (Operador en acopio): "Monitoreo de inventarios y control operativo mediante drones industriales."'>
+                        <img src="./4.png" alt="Proyecto 4">
+                    </div>
+                    <div class="project-item" data-caption='Foto 5 (Modelo de acopio con cálculo): "Cálculos volumétricos precisos para gestión de materiales y movimientos de tierra."'>
+                        <img src="./5.JPG" alt="Proyecto 5">
+                    </div>
+                    <div class="project-item" data-caption='Foto 6 (Comparativo de excavación): "Seguimiento multitemporal de obra civil: Control de avances y auditoría de proyecto."'>
+                        <img src="./6.JPG" alt="Proyecto 6">
+                    </div>
+                    <div class="project-item" data-caption='Foto 7 (Equipos FPV/Air 3 en cocina): "Tecnología FPV y cinematográfica para recorridos inmersivos de lujo y marketing inmobiliario."'>
+                        <img src="./7.jpg" alt="Proyecto 7">
+                    </div>
+                    <div class="project-item" data-caption='Seguimiento de obra'>
+                        <img src="./8.jpeg" alt="Proyecto 8">
+                    </div>
+                    <div class="project-item" data-caption='Seguimiento de obra'>
+                        <img src="./9.JPG" alt="Proyecto 9">
+                    </div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="project-item" data-caption='Foto 1 (Matrice en campo): "Despliegue técnico para levantamientos topográficos de alta precisión en entornos complejos."'>
+                        <img src="./1.jpg" alt="Proyecto 1">
+                    </div>
+                    <div class="project-item" data-caption='Foto 2 (Modelo 3D Macizo): "Análisis de macizos rocosos mediante fotogrametría para evaluación de estabilidad y geotecnia."'>
+                        <img src="./2.JPG" alt="Proyecto 2">
+                    </div>
+                    <div class="project-item" data-caption='Foto 3 (Detalle de roca anotado): "Caracterización geotécnica y mapeo de discontinuidades con resolución milimétrica."'>
+                        <img src="./3.JPG" alt="Proyecto 3">
+                    </div>
+                    <div class="project-item" data-caption='Foto 4 (Operador en acopio): "Monitoreo de inventarios y control operativo mediante drones industriales."'>
+                        <img src="./4.png" alt="Proyecto 4">
+                    </div>
+                    <div class="project-item" data-caption='Foto 5 (Modelo de acopio con cálculo): "Cálculos volumétricos precisos para gestión de materiales y movimientos de tierra."'>
+                        <img src="./5.JPG" alt="Proyecto 5">
+                    </div>
+                    <div class="project-item" data-caption='Foto 6 (Comparativo de excavación): "Seguimiento multitemporal de obra civil: Control de avances y auditoría de proyecto."'>
+                        <img src="./6.JPG" alt="Proyecto 6">
+                    </div>
+                    <div class="project-item" data-caption='Foto 7 (Equipos FPV/Air 3 en cocina): "Tecnología FPV y cinematográfica para recorridos inmersivos de lujo y marketing inmobiliario."'>
+                        <img src="./7.jpg" alt="Proyecto 7">
+                    </div>
+                    <div class="project-item" data-caption='Seguimiento de obra'>
+                        <img src="./8.jpeg" alt="Proyecto 8">
+                    </div>
+                    <div class="project-item" data-caption='Seguimiento de obra'>
+                        <img src="./9.JPG" alt="Proyecto 9">
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-footer">
+                <p class="trust-signal">"Resultados garantizados: Entregables compatibles con software de ingeniería (CAD, GIS, BIM) y estándares cinematográficos de alta gama. Nuestra capacidad técnica se adapta a la complejidad de sus desafíos; <a href="#contact" style="color: var(--accent); text-decoration: underline;">contáctenos para diseñar una solución aérea a la medida de su proyecto.</a>"</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <!-- GSAP / ScrollTrigger / Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    
+    <!-- Script Principal -->
+    <script src="./main.js"></script>
+</body>
+</html>
